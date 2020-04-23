@@ -1,0 +1,241 @@
+
+header, nav, main, footer { display: block; }
+body {
+    font-family: Verdana,Arial,sans-sans-serif;
+    background-image: url(images/background.jpg);
+    background-position: center;
+}
+
+#wrapper {
+    width: 80%;
+    min-width: 800px;
+    max-width: 1280px;
+    margin: auto;
+    background: #59515e;
+}
+#rightcol {
+    min-height: 400px;
+    margin-left: 200px;
+    background: #7f7d9c;
+    color:#333300;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#logo {
+    text-align:center;
+}
+
+
+.category{
+    font-weight: bold;
+    color:#003366;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px #667;
+}
+.text {
+    text-indent: 50px;
+    font-family: Verdana,Arial,sans-sans-serif;
+    color:#141f1f;
+    clear:right;
+}
+.navigation { list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    float: left;
+ }
+
+h1 {
+    color:#c7c6c1;
+    line-height: 800%;
+    font-family: Verdana,Arial,sans-sans-serif;
+    background:#322d31;
+    background-image: url(images/bk_header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 5px 5px 5px gray;
+    font-size: 2em;
+    text-align: center;
+}
+h2 {    font-size: 1.5em;
+        padding: 5px;
+        line-height: 150%;
+        text-shadow: 1px 1px 1px #CCCCCC;
+        text-align: center;    
+}
+ul{
+    list-style-type: none;}
+figure {
+    text-align: center;
+}
+
+a {
+    color:black;
+    font-style: italic;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+}
+nav a:link {
+    color: white;
+}
+nav a:visited {
+    color: gray;
+}
+nav a:hover {
+    color:#cccccc;
+}
+
+nav li{
+    font-size: 1em;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    font-style: italic;
+    padding: 10px;
+    color:black;
+}
+footer a:link {
+    color: black; 
+}
+footer a:visited {
+    color: black;
+}
+table {
+    border: 2px solid #333300;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #333300;
+    padding: 0.5em;
+}
+caption {
+    text-align: center;
+    color:#333300;
+    font-size: 1.5em;
+    padding: 1em;
+}
+lable {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+input,textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+video {
+    
+    margin: 0 auto;
+    display: block;
+}
+audio {
+    margin: 0 auto;
+    display: block;
+}
+#audio {
+    display: block; 
+    text-align: center;
+}
+
+#mySubmit {
+    margin-left: 13em;
+}
+em li{
+    font-size:0.5em;
+}
+#contact  {
+    font-size: 0.7;
+    color:black;
+   
+}
+#contact a{
+     font-style: normal
+}
+#mobile { display: none; }
+#desktop { display: inline; }
+@media only screen and (max-width: 768px) {
+    body {
+    margin: 0px;
+    padding:0px;
+    background-image: none;
+    }
+    #rightcol {
+        min-height: 400px;
+        margin-left: 20px;
+        background: #7f7d9c;
+        color:#333300;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    
+    }
+    #wrapper {
+        width: auto;
+        min-width: 0px;
+        margin: 0px;
+    }
+    .category {
+        text-shadow: none;
+    }
+    .navigation { list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        width: auto;
+        float: none;
+    } 
+    main {font-size: 90%;
+        margin: 0px;
+        padding-left: 1em;
+    }
+    nav {
+        float: none;
+        width: auto;
+    }
+    h1 {
+        background-image:none;
+        margin: 0px;
+        font-size: 1.5em;
+        line-height: 300%;
+        text-shadow: none;
+    }
+    nav a {
+        display:block;
+        padding: 0.2em;
+        border-bottom: 1px ridge #322d31 ;
+    }
+    nav li {
+        padding-top: 0px;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        text-align: left;
+        display: block;
+        font-size:1.2em;
+    }
+    figure {
+        transform:scale(0.7);
+        margin-left: 0px;
+        
+    }
+    footer {
+        margin: 0px;
+    }
+    #mySubmit {
+    margin-left: 11.5em;
+}
+    #mobile { display: inline; }
+    #desktop { display: none; }
+}
+
